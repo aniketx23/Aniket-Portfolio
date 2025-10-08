@@ -1,7 +1,7 @@
 
 export interface Skill {
   name: string;
-  category: 'Programming Languages' | 'AI/ML' | 'Full Stack' | 'Cloud & Databases' | 'Automation & Tools' | 'Web Scraping';
+  category: 'Programming Languages' | 'CRM/ERP & Automation Tools' | 'Frameworks & Tools' | 'Cloud & Databases' | 'AI/ML';
 }
 
 export interface Experience {
