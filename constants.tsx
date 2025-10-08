@@ -7,38 +7,38 @@ export const LINKEDIN_URL = "https://www.linkedin.com/in/aniket-awasthi-";
 export const EMAIL_ADDRESS = "aniketawasthi.work@gmail.com";
 
 export const SKILLS_DATA: Skill[] = [
-    { name: 'Python', category: 'Programming Languages' },
+    { name: 'Python (Web Scraping)', category: 'Programming Languages' },
     { name: 'JavaScript', category: 'Programming Languages' },
-    { name: 'TypeScript', category: 'Programming Languages' },
     { name: 'SQL', category: 'Programming Languages' },
+    { name: 'TypeScript', category: 'Programming Languages' },
     { name: 'HTML/CSS', category: 'Programming Languages' },
+
+    { name: 'Microsoft 365 (SharePoint, Teams, OneDrive)', category: 'CRM/ERP & Automation Tools' },
+    { name: 'Power BI', category: 'CRM/ERP & Automation Tools' },
+    { name: 'HubSpot', category: 'CRM/ERP & Automation Tools' },
+    { name: 'ClickUp', category: 'CRM/ERP & Automation Tools' },
+    { name: 'Notion', category: 'CRM/ERP & Automation Tools' },
+    { name: 'Latenode', category: 'CRM/ERP & Automation Tools' },
+    { name: 'N8n', category: 'CRM/ERP & Automation Tools' },
+
+    { name: 'React.js', category: 'Frameworks & Tools' },
+    { name: 'Node.js', category: 'Frameworks & Tools' },
+    { name: 'Express.js', category: 'Frameworks & Tools' },
+    { name: 'Flask', category: 'Frameworks & Tools' },
+    { name: 'Streamlit', category: 'Frameworks & Tools' },
+    { name: 'Google Apps Script', category: 'Frameworks & Tools' },
+
+    { name: 'MongoDB', category: 'Cloud & Databases' },
+    { name: 'Supabase', category: 'Cloud & Databases' },
+    { name: 'Firebase', category: 'Cloud & Databases' },
+    { name: 'AWS (Certified)', category: 'Cloud & Databases' },
+    { name: 'Google Cloud Platform', category: 'Cloud & Databases' },
+
     { name: 'Machine Learning', category: 'AI/ML' },
     { name: 'Scikit-learn', category: 'AI/ML' },
     { name: 'Computer Vision', category: 'AI/ML' },
     { name: 'Data Pipelines', category: 'AI/ML' },
     { name: 'Model Deployment', category: 'AI/ML' },
-    { name: 'React.js', category: 'Full Stack' },
-    { name: 'Node.js', category: 'Full Stack' },
-    { name: 'Express.js', category: 'Full Stack' },
-    { name: 'Flask', category: 'Full Stack' },
-    { name: 'Tailwind CSS', category: 'Full Stack' },
-    { name: 'Framer Motion', category: 'Full Stack' },
-    { name: 'REST APIs', category: 'Full Stack' },
-    { name: 'JWT Authentication', category: 'Full Stack' },
-    { name: 'MongoDB', category: 'Cloud & Databases' },
-    { name: 'MySQL', category: 'Cloud & Databases' },
-    { name: 'Firebase', category: 'Cloud & Databases' },
-    { name: 'AWS (Certified)', category: 'Cloud & Databases' },
-    { name: 'Google Cloud Platform', category: 'Cloud & Databases' },
-    { name: 'Google Apps Script', category: 'Automation & Tools' },
-    { name: 'Power BI', category: 'Automation & Tools' },
-    { name: 'HubSpot', category: 'Automation & Tools' },
-    { name: 'ClickUp', category: 'Automation & Tools' },
-    { name: 'DOM parsing', category: 'Web Scraping' },
-    { name: 'XPath', category: 'Web Scraping' },
-    { name: 'Regex', category: 'Web Scraping' },
-    { name: 'Web automation', category: 'Web Scraping' },
-    { name: 'ETL pipelines', category: 'Web Scraping' },
 ];
 
 export const EXPERIENCE_DATA: Experience[] = [
@@ -48,9 +48,9 @@ export const EXPERIENCE_DATA: Experience[] = [
         period: 'April 2025 - Present',
         location: 'Noida, India',
         description: [
-            'Architected and deployed full-stack automation solutions using Python, JavaScript, and Streamlit for BOQ generation, leave management, and real-time data synchronization with Google Sheets, improving reporting efficiency by 30%.',
+            'Built and maintained in-house Project Management System (React + Node + MongoDB) evolving into an ERP-style platform for task tracking, finance, and procurement.',
             'Integrated backend services with Google Apps Script and Firebase Cloud Functions to automate WhatsApp notifications and form submissions, reducing manual processing time by 42%.',
-            'Established structured data pipelines for reporting and invoicing processes aligned with SAP CI module standards, streamlining financial workflow operations.'
+            'Introduced 10+ AI agents and automatons into traditional workflows, reducing 25% of repetitive task and increasing task efficiency by saving upto 20+ hours.'
         ]
     },
     {
