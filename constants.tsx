@@ -2,8 +2,8 @@
 import React from 'react';
 import type { Skill, Experience, Project, EducationItem } from './types';
 
-export const GITHUB_URL = "https://github.com/aniket-awasthi";
-export const LINKEDIN_URL = "https://www.linkedin.com/in/aniket-awasthi-";
+export const GITHUB_URL = "https://github.com/aniketx23";
+export const LINKEDIN_URL = "https://www.linkedin.com/in/aniket-awasthi08/";
 export const EMAIL_ADDRESS = "aniketawasthi.work@gmail.com";
 
 export const SKILLS_DATA: Skill[] = [
@@ -83,21 +83,21 @@ export const PROJECTS_DATA: Project[] = [
         subtitle: 'Full-Stack Web Application',
         description: 'A production-ready, role-based project management platform for 30+ concurrent users across 5+ departments. Features a dynamic Kanban board with real-time WebSocket connections, 3-tier authentication, and a scalable RESTful API architecture.',
         technologies: ['React.js', 'Tailwind CSS', 'Node.js', 'Express.js', 'MongoDB', 'WebSocket'],
-        githubLink: 'https://github.com/aniket-awasthi',
+        githubLink: 'https://github.com/Ai983/hsiplpms',
     },
     {
         title: 'Hagerstone Corporate Website Revamp',
         subtitle: 'Frontend Development',
         description: 'Led a digital transformation from WordPress to a custom React application, achieving 75% faster page loads. Developed 15+ responsive UI components with a mobile-first design and integrated contact forms with EmailJS.',
         technologies: ['React.js', 'Flask', 'Framer Motion', 'EmailJS', 'Tailwind CSS'],
-        githubLink: 'https://github.com/aniket-awasthi',
+        githubLink: 'https://github.com/Ai983/Hagerstone-International-Website',
     },
     {
         title: 'Lane Line Detection System',
         subtitle: 'Computer Vision',
         description: 'Built real-time lane detection algorithms for autonomous vehicle applications, achieving 90% accuracy. Optimized frame processing performance by 35% and implemented testing frameworks for precision and reliability.',
         technologies: ['Python', 'OpenCV', 'Computer Vision'],
-        githubLink: 'https://github.com/aniket-awasthi',
+        githubLink: 'https://github.com/aniketx23/Lane-Detection-Using-OpenCV',
     },
 ];
 
