@@ -15,11 +15,10 @@ const Skills: React.FC = () => {
 
   const categoryOrder: Skill['category'][] = [
     'Programming Languages',
-    'AI/ML',
-    'Full Stack',
+    'CRM/ERP & Automation Tools',
+    'Frameworks & Tools',
     'Cloud & Databases',
-    'Automation & Tools',
-    'Web Scraping',
+    'AI/ML',
   ];
 
   return (
