@@ -59,7 +59,8 @@ const Hero: React.FC = () => {
         </p>
         <div className="flex items-center space-x-4">
           <a
-            href={`mailto:${EMAIL_ADDRESS}`}
+            href="#contact"
+            onClick={(e) => { e.preventDefault(); document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' }); }}
             className="inline-block bg-accent text-primary font-bold py-3 px-6 rounded-lg hover:bg-accent/90 transition-colors"
           >
             Get In Touch
