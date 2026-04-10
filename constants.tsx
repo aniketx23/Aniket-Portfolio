@@ -76,7 +76,7 @@ export const EXPERIENCE_DATA: Experience[] = [
             'Orchestrated 5 end-to-end automation workflows using n8n covering Daily Progress Reports, imprest/expense approvals, lead-to-estimate-to-follow-up pipelines, and attendance reporting — all live and actively reducing manual operational workload.',
             'Configured WhatsApp notification pipelines via Maytapi API integrated with n8n — delivering automated daily summaries, approval alerts, and task notifications to team members.',
             'Assessed 10+ AI agents using structured QA frameworks covering accuracy, completeness, hallucination risk, instruction-following, and business relevance.',
-            'Architected a full stack ERP-style Project Management System (React.js, Node.js, MongoDB) with real-time WebSocket Kanban boards, JWT-secured REST APIs, and RBAC — adopted by 30+ staff across 5 departments.',
+            'Architected a Centralised Procurement Management System (React.js, Node.js, Supabase) covering the full procurement lifecycle — 27 PRs, 28 RFQs across 566 suppliers, 14 POs issued, ₹26.9L+ procurement value managed — with blind quotation system, anti-corruption controls, JWT-secured APIs, and role-based access.',
             'Rebuilt the corporate website migrating from WordPress to React.js — 75% faster page load (4.2s → 1.1s), driving 700+ monthly active users and 34 qualified leads.',
         ]
     },
@@ -134,10 +134,10 @@ export const PROJECTS_DATA: Project[] = [
     },
     // Full Stack Web Applications
     {
-        title: 'ERP-Style Project Management System',
-        subtitle: 'React.js · Node.js · MongoDB · WebSockets · JWT · RBAC',
-        description: 'Production ERP platform with real-time Kanban boards at sub-2s latency, role-based access control, and JWT-secured REST APIs — 30+ users, 5 departments, 80+ concurrent tasks; expanding into a full in-house ERP.',
-        technologies: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'WebSockets', 'JWT', 'RBAC'],
+        title: 'Centralised Procurement Management System (CPS)',
+        subtitle: 'React.js · Node.js · Supabase · JWT · RBAC · Tailwind CSS',
+        description: 'Full stack procurement platform managing ₹26.9L+ in live procurement value — 27 PRs raised, 28 RFQs dispatched, 14 POs issued across multi-city project sites. Covers a 21-step workflow from PR submission through blind vendor quote collection, automated comparison sheets, founder approval, and PO generation. Manages 566 active suppliers with built-in anti-corruption controls.',
+        technologies: ['React.js', 'Node.js', 'Supabase', 'JWT', 'RBAC', 'Tailwind CSS'],
         githubLink: 'https://github.com/Ai983/hagerstone-cps',
         liveLink: 'https://hagerstone-cps.vercel.app/login',
     },
@@ -150,9 +150,9 @@ export const PROJECTS_DATA: Project[] = [
         liveLink: 'https://hagerstone.com/',
     },
     {
-        title: 'Procurement Intelligence Platform',
+        title: 'Vendor Intelligence System',
         subtitle: 'React.js · Node.js · Supabase · REST API · Mobile-First',
-        description: 'Mobile-first search across 850+ invoices, 210+ vendors, 300+ materials — compressed lookup from 60 minutes to under 10 seconds for field procurement teams.',
+        description: 'Mobile-first vendor search platform indexing 210+ vendors, 850+ invoices, and 300+ materials — instant lookup by vendor name, GSTIN, location, contact details, and historical rate data. Reduced vendor identification time from 60 minutes to under 10 seconds for field procurement teams.',
         technologies: ['React.js', 'Node.js', 'Supabase', 'REST API', 'Mobile-First Design'],
         githubLink: 'https://github.com/Ai983/procurement-intelligence-system',
         liveLink: 'https://procurement-intelligence-system.vercel.app/',
