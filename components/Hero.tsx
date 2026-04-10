@@ -69,6 +69,13 @@ const Hero: React.FC = () => {
           >
             Get In Touch
           </a>
+          <a
+            href="/AniketResume.pdf"
+            download="Aniket_Awasthi_Resume.pdf"
+            className="inline-block bg-transparent border-2 border-accent text-accent font-bold py-3 px-6 rounded-lg hover:bg-accent hover:text-primary transition-colors"
+          >
+            My Resume
+          </a>
           <div className="flex items-center space-x-5">
               <a href={GITHUB_URL} target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="text-text-secondary hover:text-accent transition-colors">
                   <GitHubIcon className="w-7 h-7" />
