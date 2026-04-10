@@ -27,13 +27,13 @@ const Skills: React.FC = () => {
 
   return (
     <Section id="skills" title="Technical Skills">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-8">
         {categoryOrder.map((category) => (
-          <div key={category} className="bg-secondary p-6 rounded-lg border border-border shadow-lg">
-            <h3 className="text-xl font-bold text-accent mb-4">{category}</h3>
-            <div className="flex flex-wrap gap-2">
+          <div key={category} className="bg-secondary p-3 md:p-6 rounded-lg border border-border shadow-lg">
+            <h3 className="text-sm md:text-xl font-bold text-accent mb-2 md:mb-4">{category}</h3>
+            <div className="flex flex-wrap gap-1 md:gap-2">
               {categorizedSkills[category]?.map((skill) => (
-                <span key={skill.name} className="bg-primary text-text-secondary text-sm font-medium px-3 py-1 rounded-full border border-border">
+                <span key={skill.name} className="bg-primary text-text-secondary text-xs md:text-sm font-medium px-2 py-0.5 md:px-3 md:py-1 rounded-full border border-border">
                   {skill.name}
                 </span>
               ))}

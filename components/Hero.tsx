@@ -41,12 +41,12 @@ const TypeAnimation: React.FC<{ sequence: (string | number)[] }> = ({ sequence }
 
 const Hero: React.FC = () => {
   return (
-    <section id="hero" className="min-h-screen flex flex-col justify-center items-start text-left py-20">
+    <section id="hero" className="min-h-[85vh] md:min-h-screen flex flex-col justify-center items-start text-left py-12 md:py-20">
       <div className="animate-fade-in-up">
-        <h1 className="text-5xl md:text-7xl font-bold text-text-primary mb-4">
+        <h1 className="text-4xl md:text-7xl font-bold text-text-primary mb-2 md:mb-4">
           Aniket Awasthi
         </h1>
-        <h2 className="text-3xl md:text-5xl font-semibold text-text-secondary mb-6">
+        <h2 className="text-2xl md:text-5xl font-semibold text-text-secondary mb-4 md:mb-6">
           <TypeAnimation
             sequence={[
               'AI Integration Engineer',
@@ -58,7 +58,7 @@ const Hero: React.FC = () => {
             ]}
           />
         </h2>
-        <p className="max-w-xl text-lg text-text-secondary mb-8">
+        <p className="max-w-xl text-base md:text-lg text-text-secondary mb-6 md:mb-8">
           I build LLM-powered applications, end-to-end workflow automations, and data-driven web platforms — from AI invoice pipelines to real-time ERP systems — that ship to production and deliver measurable impact.
         </p>
         <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
@@ -90,18 +90,18 @@ const Hero: React.FC = () => {
               </a>
           </div>
         </div>
-        <div className="flex flex-wrap items-center gap-6 sm:gap-8 mt-10">
+        <div className="flex flex-wrap items-center gap-5 sm:gap-8 mt-6 md:mt-10">
           <div className="text-center">
-            <p className="text-2xl font-bold text-accent">93%+</p>
-            <p className="text-sm text-text-secondary">AI Extraction Accuracy</p>
+            <p className="text-xl md:text-2xl font-bold text-accent">93%+</p>
+            <p className="text-xs md:text-sm text-text-secondary">AI Extraction Accuracy</p>
           </div>
           <div className="text-center">
-            <p className="text-2xl font-bold text-accent">5</p>
-            <p className="text-sm text-text-secondary">Live n8n Workflows</p>
+            <p className="text-xl md:text-2xl font-bold text-accent">5</p>
+            <p className="text-xs md:text-sm text-text-secondary">Live n8n Workflows</p>
           </div>
           <div className="text-center">
-            <p className="text-2xl font-bold text-accent">6+</p>
-            <p className="text-sm text-text-secondary">Production Apps</p>
+            <p className="text-xl md:text-2xl font-bold text-accent">6+</p>
+            <p className="text-xs md:text-sm text-text-secondary">Production Apps</p>
           </div>
         </div>
       </div>
