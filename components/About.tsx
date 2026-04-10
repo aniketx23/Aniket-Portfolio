@@ -15,13 +15,13 @@ const About: React.FC = () => {
         </div>
         <div className="md:w-2/3 text-lg text-text-secondary space-y-4 text-center md:text-left">
           <p>
-            I'm a final-year Computer Science student at Bennett University (CGPA: 8.7) and a Full Stack Developer currently building internal tools and web platforms at Hager Stone International in Noida.
+            AI Integration Engineer and Full Stack Developer with 1+ year of production experience building LLM-powered applications, end-to-end workflow automations, and data-driven web platforms at Hager Stone International in Noida.
           </p>
           <p>
-            In the past year, I've shipped 5 production applications — from a real-time ERP platform to a procurement search tool that replaced an hour of manual work with a 10-second query. I own the full stack: React on the front, Node.js and Supabase in the back, deployed to Vercel.
+            Designed and deployed a production invoice extraction pipeline using OpenAI GPT API achieving 93%+ accuracy across 850+ financial records; engineered 5 live n8n automation workflows covering daily reporting, expense approvals, WhatsApp notifications, and lead pipelines — all actively used by internal teams. Delivered 6 full stack web applications in parallel, including an ERP platform serving 30+ users.
           </p>
           <p>
-            I'm looking for my next role as a Full Stack Developer or Website Developer where I can keep building systems that people actually use.
+            Proficient in OpenAI GPT API, n8n, Python, React.js, Node.js, and Supabase. B.Tech Computer Science, Bennett University (CGPA: 8.7). Looking for my next role as an AI Integration Engineer or Full Stack Developer where I can build systems that deliver real business impact.
           </p>
         </div>
       </div>

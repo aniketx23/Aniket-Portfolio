@@ -14,6 +14,9 @@ const Skills: React.FC = () => {
   }, {} as Record<Skill['category'], Skill[]>);
 
   const categoryOrder: Skill['category'][] = [
+    'AI & LLM',
+    'Automation & Tools',
+    'Computer Vision',
     'Frontend',
     'Backend & APIs',
     'Databases',

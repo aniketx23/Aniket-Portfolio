@@ -7,6 +7,24 @@ export const LINKEDIN_URL = "https://www.linkedin.com/in/aniket-awasthi08/";
 export const EMAIL_ADDRESS = "aniketawasthi.work@gmail.com";
 
 export const SKILLS_DATA: Skill[] = [
+    // AI & LLM
+    { name: 'OpenAI GPT API', category: 'AI & LLM' },
+    { name: 'Prompt Engineering', category: 'AI & LLM' },
+    { name: 'Structured Output Parsing', category: 'AI & LLM' },
+    { name: 'AI Agent Evaluation', category: 'AI & LLM' },
+
+    // Automation & Tools
+    { name: 'n8n', category: 'Automation & Tools' },
+    { name: 'Google Apps Script', category: 'Automation & Tools' },
+    { name: 'Maytapi (WhatsApp API)', category: 'Automation & Tools' },
+    { name: 'Webhook Pipelines', category: 'Automation & Tools' },
+    { name: 'Firebase Cloud Functions', category: 'Automation & Tools' },
+
+    // Computer Vision
+    { name: 'OpenCV', category: 'Computer Vision' },
+    { name: 'Python Image Processing', category: 'Computer Vision' },
+
+    // Frontend
     { name: 'React.js', category: 'Frontend' },
     { name: 'Tailwind CSS', category: 'Frontend' },
     { name: 'Framer Motion', category: 'Frontend' },
@@ -14,8 +32,8 @@ export const SKILLS_DATA: Skill[] = [
     { name: 'CSS3', category: 'Frontend' },
     { name: 'JavaScript (ES6+)', category: 'Frontend' },
     { name: 'TypeScript', category: 'Frontend' },
-    { name: 'Responsive Design', category: 'Frontend' },
 
+    // Backend & APIs
     { name: 'Node.js', category: 'Backend & APIs' },
     { name: 'Express.js', category: 'Backend & APIs' },
     { name: 'Flask', category: 'Backend & APIs' },
@@ -24,38 +42,42 @@ export const SKILLS_DATA: Skill[] = [
     { name: 'JWT Authentication', category: 'Backend & APIs' },
     { name: 'RBAC', category: 'Backend & APIs' },
 
+    // Databases
     { name: 'MongoDB', category: 'Databases' },
     { name: 'Supabase', category: 'Databases' },
     { name: 'Firebase', category: 'Databases' },
     { name: 'SQL', category: 'Databases' },
 
+    // Languages
+    { name: 'Python', category: 'Languages' },
     { name: 'JavaScript', category: 'Languages' },
     { name: 'TypeScript', category: 'Languages' },
-    { name: 'Python', category: 'Languages' },
     { name: 'SQL', category: 'Languages' },
 
+    // CMS & Platforms
     { name: 'WordPress', category: 'CMS & Platforms' },
     { name: 'Vercel', category: 'CMS & Platforms' },
     { name: 'EmailJS', category: 'CMS & Platforms' },
-    { name: 'Google Apps Script', category: 'CMS & Platforms' },
 
+    // Tools
     { name: 'Git', category: 'Tools' },
     { name: 'GitHub', category: 'Tools' },
     { name: 'Postman', category: 'Tools' },
-    { name: 'Firebase Cloud Functions', category: 'Tools' },
 ];
 
 export const EXPERIENCE_DATA: Experience[] = [
     {
-        role: 'Full Stack Developer',
+        role: 'AI Integration Engineer & Full Stack Developer',
         company: 'Hager Stone International Pvt. Ltd.',
         period: 'Apr 2025 – Present',
         location: 'Noida, India',
         description: [
-            'Built and shipped 5 live production web applications covering project management, procurement, expense approvals, HR hiring, and corporate web presence — all deployed on Vercel.',
-            'Architected ERP-style PMS with React.js, Node.js, MongoDB — real-time WebSockets, JWT auth, RBAC — serving 30+ users across 5 departments.',
-            'Rebuilt corporate website from WordPress to React.js — 75% faster page load, 700+ monthly users, 34 captured leads.',
-            'Developed Procurement Intelligence, Expense Automation, and HR Hiring platforms on React.js + Supabase stack used daily by field teams.',
+            'Integrated OpenAI GPT API into a production invoice processing pipeline achieving 93%+ field extraction accuracy across 850+ financial records — implemented structured output validation, schema enforcement, and automated downstream ERP entry.',
+            'Orchestrated 5 end-to-end automation workflows using n8n covering Daily Progress Reports, imprest/expense approvals, lead-to-estimate-to-follow-up pipelines, and attendance reporting — all live and actively reducing manual operational workload.',
+            'Configured WhatsApp notification pipelines via Maytapi API integrated with n8n — delivering automated daily summaries, approval alerts, and task notifications to team members.',
+            'Assessed 10+ AI agents using structured QA frameworks covering accuracy, completeness, hallucination risk, instruction-following, and business relevance.',
+            'Architected a full stack ERP-style Project Management System (React.js, Node.js, MongoDB) with real-time WebSocket Kanban boards, JWT-secured REST APIs, and RBAC — adopted by 30+ staff across 5 departments.',
+            'Rebuilt the corporate website migrating from WordPress to React.js — 75% faster page load (4.2s → 1.1s), driving 700+ monthly active users and 34 qualified leads.',
         ]
     },
     {
@@ -64,8 +86,8 @@ export const EXPERIENCE_DATA: Experience[] = [
         period: 'Feb 2025 – Mar 2025',
         location: 'Noida, India',
         description: [
-            'Built Python + SQL data validation pipelines improving CRM data reliability by 30%.',
-            'Developed reporting dashboards integrating HubSpot CRM, ClickUp, and SharePoint.',
+            'Constructed Python and SQL data validation pipelines improving CRM data reliability by 30%.',
+            'Implemented multi-platform reporting dashboards across HubSpot CRM, ClickUp, and SharePoint.',
         ]
     },
     {
@@ -74,17 +96,47 @@ export const EXPERIENCE_DATA: Experience[] = [
         period: 'Jan 2023 – Dec 2024',
         location: '',
         description: [
-            'Co-founded early-stage tech venture; led CRM, order tracking, and client workflow systems.',
-            'Secured ₹40,000 in seed funding through Bennovate 3.0 incubation program.',
+            'Co-founded early-stage tech venture; led technical operations including CRM architecture, order tracking, and client workflows.',
+            'Secured ₹40,000 in funding through Bennovate 3.0 incubation program.',
         ]
     }
 ];
 
 export const PROJECTS_DATA: Project[] = [
+    // AI & Automation Projects
+    {
+        title: 'AI Invoice Extraction Pipeline',
+        subtitle: 'OpenAI GPT API · Node.js · Express.js · Structured Output Parsing · ERP Integration',
+        description: 'Production LLM pipeline using OpenAI GPT API with structured output schema validation — achieved 93%+ field extraction accuracy across 850+ invoices, eliminating manual data entry and automating full invoice-to-ERP ingestion for the finance team.',
+        technologies: ['OpenAI GPT API', 'Node.js', 'Express.js', 'Structured Output Parsing', 'ERP Integration'],
+        githubLink: 'https://github.com/Ai983',
+    },
+    {
+        title: 'Business Workflow Automation Suite',
+        subtitle: 'n8n · Maytapi WhatsApp API · Google Apps Script · Webhook Pipelines · Supabase',
+        description: 'Designed and deployed 5 live automation workflows in n8n: Daily Progress Reports with weather/AQI auto-population, multi-level imprest/expense approval, lead → estimate → follow-up sales pipeline, WhatsApp team summaries via Maytapi, and attendance reporting — all actively reducing manual work across operations.',
+        technologies: ['n8n', 'Maytapi API', 'Google Apps Script', 'Webhooks', 'Supabase'],
+        githubLink: 'https://github.com/Ai983',
+    },
+    {
+        title: 'AI Resume Screening Agent',
+        subtitle: 'n8n · LLM Workflow · Gmail Trigger · Structured Output Parsing',
+        description: 'Automated resume-to-JD evaluation workflow in n8n — processes up to 60 resumes per run via Gmail trigger, generates structured shortlisting scores and evaluation outputs for recruitment teams.',
+        technologies: ['n8n', 'LLM Workflow', 'Gmail API', 'Structured Output Parsing'],
+        githubLink: 'https://github.com/Ai983',
+    },
+    {
+        title: 'Lane Line Detection System',
+        subtitle: 'Python · OpenCV · Computer Vision · Image Processing',
+        description: 'Real-time lane line detection system using Python and OpenCV — applied Canny edge detection, Hough Line Transform, and region-of-interest masking to identify lane boundaries from road footage.',
+        technologies: ['Python', 'OpenCV', 'Computer Vision', 'Image Processing'],
+        githubLink: 'https://github.com/Ai983',
+    },
+    // Full Stack Web Applications
     {
         title: 'ERP-Style Project Management System',
         subtitle: 'React.js · Node.js · MongoDB · WebSockets · JWT · RBAC',
-        description: 'Production-grade internal ERP platform with real-time Kanban boards, role-based dashboards, and multi-project task tracking. Supports 80+ active tasks across 30+ users in 5 departments. JWT-secured REST APIs with WebSocket live sync at sub-2-second latency.',
+        description: 'Production ERP platform with real-time Kanban boards at sub-2s latency, role-based access control, and JWT-secured REST APIs — 30+ users, 5 departments, 80+ concurrent tasks; expanding into a full in-house ERP.',
         technologies: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'WebSockets', 'JWT', 'RBAC'],
         githubLink: 'https://github.com/Ai983/hagerstone-cps',
         liveLink: 'https://hagerstone-cps.vercel.app/login',
@@ -92,7 +144,7 @@ export const PROJECTS_DATA: Project[] = [
     {
         title: 'Corporate Website Revamp — WordPress to React',
         subtitle: 'React.js · Tailwind CSS · Framer Motion · Flask · EmailJS · SEO',
-        description: 'Migrated legacy WordPress site to custom React.js app. 75% improvement in page load speed (4.2s to 1.1s). Improved Core Web Vitals and SEO. Lead capture driving 700+ monthly users, 3800+ interactions, and 34 qualified leads. Traffic from Germany, UK, Netherlands.',
+        description: '75% faster load (4.2s → 1.1s), improved Core Web Vitals and SEO; 700+ monthly users, 34 leads captured; international traffic from Germany, UK, and Netherlands.',
         technologies: ['React.js', 'Tailwind CSS', 'Framer Motion', 'Flask', 'EmailJS', 'SEO'],
         githubLink: 'https://github.com/Ai983/Hagerstone-International-Website',
         liveLink: 'https://hagerstone.com/',
@@ -100,26 +152,18 @@ export const PROJECTS_DATA: Project[] = [
     {
         title: 'Procurement Intelligence Platform',
         subtitle: 'React.js · Node.js · Supabase · REST API · Mobile-First',
-        description: 'Mobile-first web application enabling real-time search across 850+ invoices, 210+ vendors, and 300+ materials. Filter by GSTIN, location, contact, and rate history. Reduced vendor lookup time from 30-60 minutes to under 10 seconds. Used daily by field teams.',
+        description: 'Mobile-first search across 850+ invoices, 210+ vendors, 300+ materials — compressed lookup from 60 minutes to under 10 seconds for field procurement teams.',
         technologies: ['React.js', 'Node.js', 'Supabase', 'REST API', 'Mobile-First Design'],
         githubLink: 'https://github.com/Ai983/procurement-intelligence-system',
         liveLink: 'https://procurement-intelligence-system.vercel.app/',
     },
     {
-        title: 'Expense Management & Automation System',
-        subtitle: 'React.js · Supabase · Node.js · Approval Workflows',
-        description: 'Full stack expense management platform with imprest request submission, multi-level approval workflows, bill clearance tracking, and automated weekly/monthly reporting for finance and operations teams.',
-        technologies: ['React.js', 'Supabase', 'Node.js', 'Approval Workflows', 'Reporting'],
+        title: 'Expense Management & HR Hiring Platforms',
+        subtitle: 'React.js · Supabase · Node.js · Approval Workflows · Candidate Pipeline',
+        description: 'Two live platforms: expense management with multi-level approval workflows and automated reporting; HR hiring platform with structured candidate pipeline and stage-based workflows — both in daily production use.',
+        technologies: ['React.js', 'Supabase', 'Node.js', 'Approval Workflows', 'Workflow Automation'],
         githubLink: 'https://github.com/Ai983/Expense-Automation-',
         liveLink: 'https://expense-automation-three.vercel.app/',
-    },
-    {
-        title: 'HR Hiring Automation Platform',
-        subtitle: 'React.js · Supabase · Node.js · Workflow Automation',
-        description: 'End-to-end hiring management platform with job requisition tracking, structured candidate pipeline, stage-based status workflows, and automated communication. Used by HR team for active recruitment.',
-        technologies: ['React.js', 'Supabase', 'Node.js', 'Candidate Pipeline', 'Workflow Automation'],
-        githubLink: 'https://github.com/Ai983/HR_Hiring_Automation',
-        liveLink: 'https://hr-hiring-automation.vercel.app/',
     },
 ];
 
@@ -135,12 +179,13 @@ export const EDUCATION_DATA: EducationItem[] = [
 ]
 
 export const CERTIFICATIONS_DATA: string[] = [
+    'Advanced Computer Vision with TensorFlow',
     'AWS Academy Cloud Foundations',
     'AWS Cloud Quest: Cloud Practitioner',
     'Programming with Python',
-    'Advanced Excel',
     'Tools of the Trade: Linux and SQL',
     'Project Planning: Putting It All Together',
+    'Advanced Excel',
 ];
 
 // ICONS

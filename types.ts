@@ -1,7 +1,7 @@
 
 export interface Skill {
   name: string;
-  category: 'Frontend' | 'Backend & APIs' | 'Databases' | 'Languages' | 'CMS & Platforms' | 'Tools';
+  category: 'AI & LLM' | 'Automation & Tools' | 'Computer Vision' | 'Frontend' | 'Backend & APIs' | 'Databases' | 'Languages' | 'CMS & Platforms' | 'Tools';
 }
 
 export interface Experience {

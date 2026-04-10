@@ -49,13 +49,17 @@ const Hero: React.FC = () => {
         <h2 className="text-3xl md:text-5xl font-semibold text-text-secondary mb-6">
           <TypeAnimation
             sequence={[
-              'Full Stack Web Developer',
+              'AI Integration Engineer',
+              2000,
+              'Workflow Automation Expert',
+              2000,
+              'Full Stack Developer',
               2000,
             ]}
           />
         </h2>
         <p className="max-w-xl text-lg text-text-secondary mb-8">
-          I build fast, responsive web applications — from internal platforms to customer-facing websites — that ship to production and stay there.
+          I build LLM-powered applications, end-to-end workflow automations, and data-driven web platforms — from AI invoice pipelines to real-time ERP systems — that ship to production and deliver measurable impact.
         </p>
         <div className="flex items-center space-x-4">
           <a
@@ -79,16 +83,16 @@ const Hero: React.FC = () => {
         </div>
         <div className="flex items-center space-x-8 mt-10">
           <div className="text-center">
+            <p className="text-2xl font-bold text-accent">93%+</p>
+            <p className="text-sm text-text-secondary">AI Extraction Accuracy</p>
+          </div>
+          <div className="text-center">
             <p className="text-2xl font-bold text-accent">5</p>
-            <p className="text-sm text-text-secondary">Live Applications</p>
+            <p className="text-sm text-text-secondary">Live n8n Workflows</p>
           </div>
           <div className="text-center">
-            <p className="text-2xl font-bold text-accent">30+</p>
-            <p className="text-sm text-text-secondary">Active Users</p>
-          </div>
-          <div className="text-center">
-            <p className="text-2xl font-bold text-accent">75%</p>
-            <p className="text-sm text-text-secondary">Avg. Performance Gain</p>
+            <p className="text-2xl font-bold text-accent">6+</p>
+            <p className="text-sm text-text-secondary">Production Apps</p>
           </div>
         </div>
       </div>
