@@ -61,21 +61,23 @@ const Hero: React.FC = () => {
         <p className="max-w-xl text-lg text-text-secondary mb-8">
           I build LLM-powered applications, end-to-end workflow automations, and data-driven web platforms — from AI invoice pipelines to real-time ERP systems — that ship to production and deliver measurable impact.
         </p>
-        <div className="flex items-center space-x-4">
-          <a
-            href="#contact"
-            onClick={(e) => { e.preventDefault(); document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' }); }}
-            className="inline-block bg-accent text-primary font-bold py-3 px-6 rounded-lg hover:bg-accent/90 transition-colors"
-          >
-            Get In Touch
-          </a>
-          <a
-            href="/AniketResume.pdf"
-            download="Aniket_Awasthi_Resume.pdf"
-            className="inline-block bg-transparent border-2 border-accent text-accent font-bold py-3 px-6 rounded-lg hover:bg-accent hover:text-primary transition-colors"
-          >
-            My Resume
-          </a>
+        <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+          <div className="flex flex-wrap gap-3">
+            <a
+              href="#contact"
+              onClick={(e) => { e.preventDefault(); document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' }); }}
+              className="inline-block bg-accent text-primary font-bold py-3 px-6 rounded-lg hover:bg-accent/90 transition-colors"
+            >
+              Get In Touch
+            </a>
+            <a
+              href="/AniketResume.pdf"
+              download="Aniket_Awasthi_Resume.pdf"
+              className="inline-block bg-transparent border-2 border-accent text-accent font-bold py-3 px-6 rounded-lg hover:bg-accent hover:text-primary transition-colors"
+            >
+              My Resume
+            </a>
+          </div>
           <div className="flex items-center space-x-5">
               <a href={GITHUB_URL} target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="text-text-secondary hover:text-accent transition-colors">
                   <GitHubIcon className="w-7 h-7" />
@@ -88,7 +90,7 @@ const Hero: React.FC = () => {
               </a>
           </div>
         </div>
-        <div className="flex items-center space-x-8 mt-10">
+        <div className="flex flex-wrap items-center gap-6 sm:gap-8 mt-10">
           <div className="text-center">
             <p className="text-2xl font-bold text-accent">93%+</p>
             <p className="text-sm text-text-secondary">AI Extraction Accuracy</p>
